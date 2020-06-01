@@ -1,0 +1,33 @@
+.menu {
+  background: #f7f6f5;
+}
+
+.menu__main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.menu__main__item {
+  display: inline;
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid white;
+}
+
+.menu__main__item:hover {
+  background: white;
+  border-bottom: none;
+  border-right: 1px solid #cfcfcf;
+  border-left: 1px solid #cfcfcf;
+}
+
+.menu__main__item__link {
+  text-decoration: none;
+  color: grey;
+}
+
+.menu__sub__subcategories {
+  display: inline-block;
+}
+.menu__sub__subcategories__visual {
+  display: inline-block;
+}
